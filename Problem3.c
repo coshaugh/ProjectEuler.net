@@ -1,9 +1,9 @@
-// --------------------------------------------------------------
+// -----------------------------------------------------------
 // ASSIGNMENT: The prime factors of 13195 are 5, 7, 13 and 29.
 // 			   What is the largest prime factor of the number 
 // 			   600851475143 ?
 // 			   FOLLOW NUMBERS IN COMMENTS FOR CLARITY :)
-// --------------------------------------------------------------
+// -----------------------------------------------------------
 
 #include <stdio.h>
 #define NUMBER_BEING_EVALUATED 600851475143
@@ -28,8 +28,6 @@ int main(void)
 				currentPrime=mainLoopCounter;
 				printf("prime number inside for loop inside inner nested if: %d\n", currentPrime);
 			}
-			else 
-				;
 		}
 	}
 	// 8) once above looping has executed, this print statement should print out the most currently updated prime multiple
@@ -49,9 +47,6 @@ int determineIfPrime(long int mainLoopCounter)
 		{
 			return 0;
 		}
-		// 5) else here just for formality
-		else
-			;
 	}
 	// 5) this return is only reached it excapes above loop, returning a true to the function call
 	return 1;
