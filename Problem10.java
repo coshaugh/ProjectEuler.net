@@ -4,6 +4,11 @@
 // ----------------------------------------------------------------
 import java.lang.Math;
 
+/**
+* @author Conor O'Shaughnessy, coshaugh1@gmail.com
+* @version v1.0
+* @since 12/12/13
+*/
 public class Problem10
 {
 	public static void main(String[] args)
